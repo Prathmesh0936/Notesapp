@@ -1,0 +1,59 @@
+/* Form container */
+.note-form {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+/* Input field */
+.note-input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.note-input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Textarea */
+.note-textarea {
+  min-height: 120px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  resize: vertical;
+  transition: 0.3s;
+}
+
+.note-textarea:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 6px rgba(76, 175, 80, 0.4);
+}
+
+/* Save button */
+.btn.save-btn {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn.save-btn:hover {
+  background-color: #43a047;
+  transform: scale(1.05);
+}
